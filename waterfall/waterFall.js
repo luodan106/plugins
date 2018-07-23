@@ -19,7 +19,7 @@
                 var realwidth=this.width;                  //获取图片原本的宽度
                 var realheight=this.height;                //获取图片原本的高度
                 that.newwidth=imagewidth;                   //图片显示的宽度
-                var newheight=(that.newwidth/realwidth)*realheight;     //计算图片原本的高度
+                var newheight=(that.newwidth/realwidth)*realheight;     //计算图片要展示的高度
                 $(this).height(newheight+"px");
                 $(this).width(that.newwidth+"px");
                 //第一行按顺序放置5张图片
