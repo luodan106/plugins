@@ -1,0 +1,165 @@
+html{
+	height: 100%;
+	width:100%;
+	padding: 0;
+	margin: 0;
+}
+body{
+	height: 100%;
+	width:100%;
+	padding: 0;
+	margin: 0;
+}
+.canlendar{
+	width:200px;
+	height:200px;
+	border:0.2px solid #d2aeae;
+	background-color: white;
+	position:absolute;
+}
+.inputDate{
+	width: 100px;
+	height: 15px;
+}
+.c_top{
+	width: 100%;
+	height: 16px;
+	position: relative;
+}
+.previmg{
+	height: 16px;
+	width: 16px;
+	background-image: url("./images/prev.png") ;
+	background-size: 16px 16px;
+	float: left;
+}
+.previmg:hover{
+	cursor: pointer;
+	background-image: url("./images/prevhover.png") ;
+}
+.c_year{
+	width: 60%;
+	height:15px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+}
+.c_year:hover{
+	cursor: pointer;
+	background-color: #eae8e8;
+}
+.nextimg{
+	height: 16px;
+	width: 16px;
+	background-image: url("./images/next.png") ;
+	background-size: 16px 16px;
+	float: right;
+}
+.nextimg:hover{
+	cursor: pointer;
+	background-image: url("./images/nexthover.png") ;
+}
+.datebox{
+	width: 200px;
+	height: 200px;
+	display: block;
+	position: relative;
+	border: 1px solid black;
+}
+.c_bottom{
+	margin-top: 20px;
+}
+.dateboxul{
+	position: relative;
+	width: 200px;
+	height: 35px;
+	display: inline-block;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+.dateboxli{
+	float: left;
+	border: 0.5px solid white;
+	padding:3.5px 5px;
+	line-height: 35px;
+	text-align: center;
+	list-style-type: none;
+	margin-left: 1px;
+}
+.dateboxli:hover{
+	border: 0.5px outset; 
+	cursor: pointer;
+	background-color: blue;
+}
+.monthboxul{
+	display: flex;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	-ms-flex-pack: justify;
+	padding: 0;
+	margin:30px 20px;
+}
+.monthboxli{
+	list-style-type: none;
+	width:18px;
+	text-align: center;
+	border: 1px solid white;
+}
+.monthboxli:hover{
+	cursor: pointer;
+	border:1px outset; 
+}
+.dateli{
+	float: left;
+	border: 0.5px solid white;
+	padding:3.5px 5px;
+	line-height: 35px;
+	text-align: center;
+	list-style-type: none;
+	margin-left: 1px;
+	color:#b1b1bd;
+}
+.week{
+	position: relative;
+	width: 160px;
+}
+.weektitle li{
+	list-style-type: none;
+	width:18px;
+	text-align: center;
+}
+.weektitle{
+	display: flex;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	-ms-flex-pack: justify;
+	padding: 0;
+}
+.weekday{
+	display: flex;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	-ms-flex-pack: justify;
+	padding: 0;
+	margin:2px 0;
+
+}
+.weekday li{
+	list-style-type: none;
+	width:18px;
+	text-align: center;
+	border: 1px solid white;
+}
+.datevalid:hover{
+	cursor: pointer;
+	border:1px outset; 
+}
+.box{
+	box-shadow:  1px 3px rgba(34, 25, 25, 0.2)
+}
